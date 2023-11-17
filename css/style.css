@@ -1,0 +1,170 @@
+.gradient-background {
+  background: linear-gradient(300deg, #E3FDFD, #CBF1F5, #A6E3E9);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+.title-con {
+  background-color: #E3FDFD;
+  height: 100%;
+}
+
+.myprojects {
+  background-color: #E3FDFD;
+  height: 100%;
+}
+
+.git {
+  color: #71C9CE;
+  font-weight: 600;
+}
+
+a.git:hover {
+  color: #99d8dc;
+}
+
+.aboutme {
+  background-color: #f6f6f6;
+  height: 100%;
+}
+
+.click {
+  padding-bottom: 2%;
+}
+
+.navbar {
+  background-color: #cbf1f5;
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.img{
+  border-radius:50%;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.navbar-nav {
+  --bs-nav-link-color: #3DA9AF;
+  font-weight: bold;
+  --bs-nav-link-hover-color: #4bbbc1;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: #266C6F;
+}
+
+.container-fluid {
+  background-color: #cbf1f5;
+  color: #266C6F;
+  width: 100%;
+}
+
+.nav-link {
+  color: #266C6F;
+}
+
+.nav {
+  --bs-nav-link-hover-color: #4bbbc1; 
+  --bs-nav-link-color: #3DA9AF;
+}
+
+.logo{
+  border-radius:50%;
+  overflow: hidden;
+  margin-top: -6px;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+h1 {
+  color: #71C9CE;
+  font-size: 5.5rem;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.hover_img a { position:relative; }
+.hover_img a span { position:absolute; display:none; z-index:99; }
+.hover_img a:hover span { display:block; width: 350px;}
+.biryani {
+  color: #71C9CE;
+  font-weight: 600;
+}
+a.biryani:hover {
+  color: #99d8dc;
+}
+
+.carousel {
+  width: 71%;
+  margin: auto;
+  padding-top: 4%;
+  padding: 1%;
+}
+
+
+.btn {
+  margin-top: 80px;
+}
+
+.btn-primary, .btn-primary:active, .btn-primary:visited {
+  background-color: #71C9CE;
+}
+
+.btn-primary:hover {
+  background-color: #99d8dc;
+}
+
+
+.intro {
+  width: 30%;
+  margin: auto;
+  margin-top: 0;
+}
+
+.welcome {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  font-weight: bold;
+}
+
+h2 {
+  color: #71C9CE;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.svg {
+  display: flex;
+  width: 12rem;
+  height: 6rem;
+  margin: auto;
+ }
+
+.icon {
+  color: #71C9CE;
+}
